@@ -602,7 +602,8 @@ img {
 
 .hero .btn:hover,
 .hero .btn:focus,
-.form-btn:hover,
+.footer-btn:focus,
+.footer-btn:hover .form-btn:hover,
 .form-btn:focus {
   background-color: var(--button-bg-color);
 }
@@ -692,31 +693,6 @@ img {
   flex-direction: column;
   margin-bottom: 10px;
   text-align: start;
-}
-
-.form-lable {
-  display: flex;
-  flex-direction: column;
-
-  color: var(--primary-text-color);
-
-  font-size: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-}
-.form-input {
-  width: 100%;
-  padding: 10px 12px;
-  border: 1px solid var(--boder-input-modal);
-  border-radius: 4px;
-}
-
-.form-icon {
-  position: absolute;
-  top: 50%;
-  left: 12px;
-  fill: var(--title-text-color);
 }
 
 /* portfolio */
