@@ -531,7 +531,7 @@ img {
   background-color: var(--accent-color);
 }
 
-.js-speaker-form {
+.footer-form {
   margin-left: auto;
 }
 .footer .form {
@@ -548,6 +548,13 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   font: inherit;
+  outline: none;
+  transition: border var(--transition-duration) var(--transition-timing-function);
+}
+
+.input:hover,
+.input:focus {
+  border: 1px solid var(--accent-color);
 }
 
 .icon-footer {
@@ -715,12 +722,14 @@ img {
   width: 100%;
   font: inherit;
   margin: 0;
-  padding: 11px 12px;
+  padding: 11px 12px 11px 42px;
 
   fill: var(--title-text-color);
 
   border: 1px solid var(--boder-input-modal);
   border-radius: 4px;
+  outline: none;
+  transition: border var(--transition-duration) var(--transition-timing-function);
 }
 
 .form-icon {
@@ -728,10 +737,9 @@ img {
   top: 50%;
   left: 12px;
   fill: var(--title-text-color);
+  transition: fill var(--transition-duration) var(--transition-timing-function);
 }
 
-.form-input:focus-within + .form-icon,
-.form-input:not(:placeholder-shown) + .form-icon,
 .form-input:focus + .form-icon,
 .form-input:hover + .form-icon {
   fill: var(--accent-color);
@@ -740,9 +748,7 @@ img {
 .form-input:focus,
 .form-input:hover,
 .form-textarea:focus,
-.form-textarea:hover,
-.form-input:focus-within,
-.form-input:not(:placeholder-shown) {
+.form-textarea:hover {
   border: 1px solid var(--accent-color);
 }
 
