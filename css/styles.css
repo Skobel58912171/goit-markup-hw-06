@@ -196,14 +196,14 @@ img {
 
 .contacts .link {
   transition: color var(--transition-duration) var(--transition-timing-function),
-    fill var(--transition-duration) var(--transition-timing-function);
+    
 
   display: inline-flex;
   align-items: center;
   margin: 0px;
 
   color: var(--primary-text-color);
-  fill: var(--primary-text-color);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -214,12 +214,11 @@ img {
 .contacts .link:hover,
 .contacts .link:focus {
   color: var(--accent-color);
-  fill: var(--accent-color);
 }
 
-.contacts.list .mail,
-.contacts.list .phone {
-  margin-left: 10px;
+.contacts .icon {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 /* hero */
