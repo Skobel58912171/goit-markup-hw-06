@@ -426,7 +426,7 @@ img {
   border: 1px solid var(--title-text-color);
   transition: background-color var(--transition-duration) var(--transition-timing-function),
     border var(--transition-duration) var(--transition-timing-function),
-    fill var(--transition-duration) var(--transition-timing-function);
+    
 }
 
 .checkbox:checked + .checkbox-icon,
