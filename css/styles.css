@@ -430,10 +430,13 @@ img {
     
 }
 
-.checkbox:checked + .checkbox-icon,
-.checkbox-icon:focus,
-.checkbox-icon:hover {
+.checkbox:checked + .checkbox-icon{
   background-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+.checkbox-icon:focus,
+.checkbox-icon:hover{
   border: 1px solid var(--accent-color);
 }
 
