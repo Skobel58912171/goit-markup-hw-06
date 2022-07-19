@@ -435,8 +435,8 @@ img {
   border: 1px solid var(--accent-color);
 }
 
-.checkbox-icon:focus,
-.checkbox-icon:hover{
+.checkbox:focus + .checkbox-icon,
+.checkbox:hover + .checkbox-icon{
   border: 1px solid var(--accent-color);
 }
 
