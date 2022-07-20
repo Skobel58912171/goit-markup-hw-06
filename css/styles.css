@@ -436,7 +436,7 @@ img {
 }
 
 .checkbox:focus + .checkbox-icon,
-.checkbox:hover + .checkbox-icon{
+.checkbox-icon:hover {
   border: 1px solid var(--accent-color);
 }
 
